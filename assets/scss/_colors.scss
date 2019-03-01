@@ -3,8 +3,9 @@
 $primary-color: #6F0943;
 $secundary-color: #787878;
 $tertiary-color: bisque;
-$fourth-color: black;
-$fifth-color: #333;
+$fourth-color: #bf00ff;
+$fifth-color: white;
+$seventh-color: black;
 
 $primary-font: italic;
 $secundary-font: oblique;
@@ -14,6 +15,10 @@ $secundary-font: oblique;
 $secundary-f-family: 'Great Vibes', cursive;
 $primary-f-family: 'Lobster Two', cursive;
 $tertiary-family: 'Tangerine', cursive;
+$fourth-family: 'Russo One', sans-serif;
+$six-family: 'Cabin', sans-serif;
+$fifth-family: 'Economica', sans-serif;
+
 
 //== color-style:
 @mixin primary-style {

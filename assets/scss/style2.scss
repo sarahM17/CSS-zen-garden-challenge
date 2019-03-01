@@ -1,0 +1,270 @@
+@import "grid.scss";
+@import "_borders.scss";
+@import "_colors.scss";
+@import "_difitems.scss";
+@import "_variables.scss";
+@import "_styling.scss";
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Lobster+Two|Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Economica');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+
+body {
+    background-image: url("https://ak8.picdn.net/shutterstock/videos/21640678/thumb/1.jpg?i10c=img.resize(height:160)");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    
+}
+
+.page-wrapper {
+    position: relative;
+    width: 630px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-color: $fourth-color;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    box-shadow: 5px 10px purple;
+}
+
+.intro {
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-ornamental-purpura-con-degradado_1057-3836.jpg");
+    background-size: auto;
+    height: 250px;
+    background-repeat: no-repeat;
+    padding-bottom: -200px;
+    
+    background-color: $fourth-color;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+
+header h1 {
+    font-size: 40px;
+    padding-right: 10px;
+    color: $fifth-color;
+    text-align: center;
+    font-family: $fourth-family;
+    margin-left: -30px;
+
+}
+
+header h2 {
+    margin-top: -40px;
+    text-align: center;
+    font-size: 20px;
+    color: $primary-color;
+    font-style: $primary-font;
+}
+
+.preamble h3 {
+    text-align: left;
+    display: inline;
+    font-size: 30px;
+    color: $fifth-color; 
+    font-style: $primary-font;
+    font-family: $fifth-family;
+}
+
+h3 {
+    font-size: 30px;
+    color: $fifth-color; 
+    font-style: $primary-font;
+    font-family: $fifth-family;
+}
+
+.summary {
+    position: relative;
+    margin-top: -10px;
+    top: -100px;
+    float: right;
+    text-align: right;
+    font-size: 10px;
+    font-family: $six-family;
+    color: $fifth-color;
+    width: 400px;
+    p {
+        margin-bottom: -5px;
+        padding-top: -5px;
+    }
+
+}
+header {
+    background: transparent url("https://images.vexels.com/media/users/3/138880/isolated/preview/a9c470da28af23ad4d01f668a60ee016-ballet-dancer-pose-jumping-silhouette-by-vexels.png") no-repeat top left;
+    background-size: 200px;
+    height: 220px;
+    padding-bottom: -200px;
+    
+
+}
+abbr {
+    font-style: $primary-font;
+    text-decoration: none;
+    color: $primary-color;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: $seventh-color;
+
+
+}
+.design-archives {
+   margin-top: -45px;
+   margin-bottom: -20px;
+   
+}
+
+.resources {
+    font-size: 15px;
+    margin-top: -45px;
+    margin-bottom: -13px;
+}
+
+.preamble {
+    background-color: $fourth-color;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    text-align: left;
+    width: 400px;
+    top: -200px;
+    margin-top: 49px;
+    margin-left: 195px;
+    box-shadow: 5px 10px purple;
+
+    p {
+        text-align: left;
+        font-family: $six-family;
+        color: $seventh-color;
+    }
+}
+
+.explanation {
+    padding-top: -30px;
+    padding: 0px 30px;
+    width: 500x;
+
+    p {
+        font-family: $six-family;
+        color: $seventh-color;
+    }
+}
+
+.sidebar {
+    background-color: $fourth-color;
+    position: absolute;
+    right: 400px;
+    left: auto;
+    top: 312px;
+    padding: 0 10px;
+    margin-left: 240px;
+    width: 229px;
+    box-shadow: 0px 5px purple;
+
+}
+.main-supporting {
+    background-color: $fourth-color;
+    position: absolute;
+    top: 460px;
+    left: 40%;
+    overflow: auto;
+    height: 374px;
+    width: 416px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    margin-top: 150px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -42px;
+    margin-right: 100px;
+    box-shadow: 5px 5px purple;
+
+}
+
+.participation {
+    background-color: $fourth-color;
+    width: 400px;
+    margin-top: 50px;
+    padding: 0px 30px;
+    border-right-color: $primary-color;
+    border-right-style: solid;
+    border-right-width: 1px;
+
+    p {
+        font-family: $six-family;
+        color: $seventh-color;
+    }
+    
+}
+.select {
+    font-size: 15px;
+    margin-bottom: -13px;
+}
+
+.archives {
+    font-size: 15px;
+    margin-top: -45px;
+    margin-bottom: -13px;
+}
+
+
+.benefits {
+    background-color: $fourth-color;
+    width: 400px;
+    margin-top: 10px;
+    padding: 0px 30px;
+    border-right-color: $primary-color;
+    border-right-style: solid;
+    border-right-width: 1px;
+
+    p {
+        font-family: $six-family;
+        color: $seventh-color;
+    }
+}
+
+.requirements {
+    background-color: $fourth-color;
+    width: 400px;
+    padding: 0px 30px;
+    border-right-color: $primary-color;
+    border-right-style: solid;
+    border-right-width: 1px;
+
+    p {
+    font-family: $six-family;
+    color: $seventh-color;
+    }
+}
+
+footer {
+    background-color: $fourth-color;
+    width: 400px;
+    padding: 0px 30px;
+    border-right-color: $primary-color;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+ul {
+    font-size: 15px;
+    margin-bottom: 70px;
+    padding-right: 10px;
+}
+
+li {
+    padding: 5px 0px;
+    border-bottom: $primary-color;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+}
+
