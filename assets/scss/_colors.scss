@@ -1,0 +1,23 @@
+//== color-variable:
+
+$primary-color: #6F0943;
+$secundary-color: #787878;
+$tertiary-color: bisque;
+$fourth-color: black;
+$fifth-color: #333;
+
+$primary-font: italic;
+$secundary-font: oblique;
+
+//font-family:
+
+$secundary-f-family: 'Great Vibes', cursive;
+$primary-f-family: 'Lobster Two', cursive;
+$tertiary-family: 'Tangerine', cursive;
+
+//== color-style:
+@mixin primary-style {
+    background-color: $primary-color;
+    color: $secundary-color;
+}
+
